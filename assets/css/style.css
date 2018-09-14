@@ -1,0 +1,75 @@
+body {
+    background: 
+}
+
+.background {
+    height: 100%;
+    background-size: 1000px 1000px;
+}
+
+#Header {
+    font-family: 'Tangerine', cursive;
+    color: white;
+    text-align: center;
+    border: 50px;
+    padding: 50px;
+    font-size: 50px;
+}
+
+.directions {
+    font-family: 'Tangerine', cursive; 
+    color: white;
+    padding: 20px;
+    padding-bottom: 10px;
+    padding-top: 0px;
+    font-size: 20px;
+    background: black:
+
+}
+
+#random {
+    color: white;
+    padding: 20px;
+    font-size: 20px;
+}
+
+.randomNumber {
+    color: white;
+    font-size: 20px;
+}
+
+.score {
+    color: white;
+    font-size: 20px;
+}
+
+.buttons {
+    padding: 20px;
+}
+
+#crystal1 {
+   padding: 20px;
+   
+}
+
+#crystal2 {
+    padding: 20px;
+}
+
+#crystal3 {
+    padding: 20px;
+}
+
+#crystal4 {
+    padding: 20px;
+}
+
+#totalScore {
+    color: white;
+    font-size: 20px;
+    padding: 20px;
+}
+
+.playingNumber {
+    color: white;
+}

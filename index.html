@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Diamonds Collector</title>
+    <link rel='stylesheet' href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body background="assets/images/background.jpg" style="background-repeat: no-repeat; background-size: cover">
+
+    <!--Holds Everything-->
+    <div class="container">
+
+        <!--Holds the heading-->
+        <div></div>
+        <div class="row">
+            <div class="col">
+                <h1 id=Header>Diamonds Collector!</h1>
+            </div>
+        </div>
+
+    </div>
+
+    <!--Holds Directions-->
+    <div class="directions">
+        <div class="row">
+            <div class="col">
+                <p>You will be given a random number at the start of the game.</p>
+                <p>There are four diamonds below. By clicking on a diamond you will add a specific amount of
+                    points to your total score.</p>
+                <p>You win the game by matching your total score to random number, you lose the game if your
+                    total score goes above the random number.</p>
+                <p>The value of each diamond is hidden from you until you click on it.</p>
+                <p>Each time when the game starts, the game will change the values of each diamond.</p>
+            </div>
+        </div>
+
+    </div>
+
+    <!--Holds number and score-->
+    <div id=random>
+        <div class="row">
+            <div class="col-md-6">
+                <div>Random Number: <span class="randomNumber"></span></div>
+                <div class="col-md-6">
+                    <div class="score">
+                        <div> wins: <span class="wins"></span></div>
+                        <div> losses: <span class="losses"></span></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--Crystal buttons-->
+    <div class="buttons">
+        <div class="row">
+            <div class="col-md-1">
+                <img id="crystal1" src='assets/images/firstdiamondpic.jpg' width="150px">
+            </div>
+            <div class="col-md-1">
+                <img id="crystal2" src='assets/images/seconddiamondpic.jpg' width="150px">
+            </div>
+            <div class="col-md-1">
+                <img id="crystal3" src='assets/images/thirddiamondpic.jpg' width="150px">
+            </div>
+            <div class="col-md-1">
+                <img id="crystal4" src='assets/images/fourthdiamondpic.jpg' width="150px">
+            </div>
+        </div>
+    </div>
+
+    <!--Holds user score-->
+    <div id=totalScore>
+        <div class="row">
+            <div class="col-md">
+                <div>Your total score is: <span class="playingNumber"></span></div>
+            </div>
+        </div>
+    </div>
+    <!--Holds users playing number-->
+    <div class="row">
+        <div class="col-md">
+            <div id="playingNumber">
+            </div>
+        </div>
+    </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script type="text/javascript" src="assets/javascript/game.js"></script>
+</body>
+
+</html>
